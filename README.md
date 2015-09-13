@@ -35,6 +35,27 @@ sudo apt-get install ruby
                     then i searched with command "apt-cache search ruby|grep dev", which find following:
                             ruby-dev - Header files for compiling extension modules for Ruby (default version)
                             ruby2.1-dev - Header files for compiling extension modules for the Ruby 2.1
-                    consider to the ruby version is 2.1.x, so i install ruby2.1-dev.
+                    consider to the ruby version is 2.1.x, so i install ruby2.1-dev, not work.
+                    it's my environment broken: the apt source wrong .
 
+                    at last:
+                     i change my apt source.list to
+                        deb http://mirrors.163.com/ubuntu/ utopic main
+                        # set utopic to my ubuntu version
+                     reinstall ruby
+                     install ruby-dev,  "sudo apt-get install ruby-dev"
+                     install compass,  "sudo gem install compass"
+
+                    NOW it works!
+
+
+
+## start a project
+
+## create project
+
+    command:compass create learn-compass
+    this command will create a compass project with compass starter stylesheets.(use scss syntax)
+
+## continue to read installation guide
 

@@ -52,10 +52,10 @@ sudo apt-get install ruby
 
 ## start a project
 
-## create project
+### create project
 
     command:compass create learn-compass
     this command will create a compass project with compass starter stylesheets.(use scss syntax)
 
-## continue to read installation guide
+### continue to read installation guide
 

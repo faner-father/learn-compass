@@ -11,7 +11,7 @@ sudo apt-get install ruby
 2. install compass
 
 
-problems:
+        problems:
 
         - ruby official source not work well, change to taobao source use below reference:
                 http://segmentfault.com/q/1010000000386278
@@ -29,7 +29,7 @@ problems:
                 Results logged to /var/lib/gems/2.1.0/extensions/x86-linux/2.1.0/ffi-1.9.10/gem_make.out
 
 
-               __solve__ :
+               solution :
                     find solution in reference http://blog.csdn.net/cherry_sun/article/details/7743628 which suggest to
                     install ruby-devel, but there is no ruby-devel lib,
                     then i searched with command "apt-cache search ruby|grep dev", which find following:
